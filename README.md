@@ -16,7 +16,7 @@ Vote: each user can vote on a poll.
 ## Domain Model
 This domain model shows all the required concepts of our application including their relationships to each other. In this case we have a fairly simple domain model with only two tables RegisteredUser and Poll. These tables are also stored in a database.
 ![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/DomainModel.png?raw=true)
-##Application Flow Diagram
+## Application Flow Diagram
 ![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/WebApplicationFlow.png?raw=true)
 This application consists of 4 screens. Non-logged-in users have the ability to vote on public polls and they can also register as a user. Logged-in users can create, edit and view their polls and also vote on public and private polls. The registered users also have the ability to reset their polls and to connect an IoT device.
 User Screens
@@ -36,7 +36,7 @@ Architectural Diagram
 In the diagram above we laid the foundation for our application. We have two different possible sources of input, namely an IoT Feedback device or a web browser. This is all being sent to the web app which is the core of our application (using a PAAS - Container). On our web app service we can connect to our database which stores the results of the polls and also the registered users. Next to the database we also have a Rest API so other applications can easily integrate information from our polls. Finally we also send activity from the polls to an external service called Dweet.io.
 
 
-##DB view in intellij:
+## DB view in intellij:
 
 ## PollUser Class and DAO:
 
@@ -48,5 +48,5 @@ In the diagram above we laid the foundation for our application. We have two dif
 ## PollUser Table:
 
 
-##Poll Table:
+## Poll Table:
 
