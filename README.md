@@ -36,20 +36,23 @@ The first screen a person would see is the homescreen, here you can enter the ID
 
 In the register page a non-registered user is able to register as a user to have access to the creation of polls.
 
-![Register Page](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/RegisterPage.PNG?raw=true)
+![Register Page](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/RegisterUser.PNG?raw=true)
 
 On the manage polls page a user can watch all the polls he has created and has the option to view/edit them. The user also has the chance to create a poll on this page.
 
-![Web-Application Flow](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/Manage.png?raw=true)
+![Manage Ppolls](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/ManagePolls.PNG?raw=true)
 
 When we click on the create poll button we are redirected to a new page where we can create a brand new poll, with a certain title, description, time and options.
+![Create Poll](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/CreatePoll.PNG?raw=true)
 
-![Web-Application Flow](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/WebApplicationFlow.png?raw=true)
 
 We also have a page where we can edit the poll and also view the score of a certain poll. On this page we also have the ability to delete a poll and to start/stop it.
+
+![Edit Poll](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/EditPollPNG.PNG?raw=true)
+
 ## Architectural Diagram
 
-![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/SystemArchitecture.png?raw=true)
+![Architectural Diagram](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/SystemArchitecture.png?raw=true)
 
 In the diagram above we laid the foundation for our application. We have two different possible sources of input, namely an IoT Feedback device or a web browser. This is all being sent to the web app which is the core of our application (using a PAAS - Container). On our web app service we can connect to our database which stores the results of the polls and also the registered users. Next to the database we also have a Rest API so other applications can easily integrate information from our polls. Finally we also send activity from the polls to an external service called Dweet.io.
 
@@ -66,6 +69,7 @@ In the diagram above we laid the foundation for our application. We have two dif
 ![Poll](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/Poll.PNG?raw=true)
 
 ## Sample Data:
+
 
 ![Sample Data](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/SampleData.PNG?raw=true)
 
