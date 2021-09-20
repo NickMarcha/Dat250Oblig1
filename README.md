@@ -37,16 +37,16 @@ In the diagram above we laid the foundation for our application. We have two dif
 
 
 ## DB view in intellij:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/DataBaseView.png?raw=true)
 ## PollUser Class and DAO:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/PollUser.png?raw=true)
 ## Poll Class and DAO:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/Poll.png?raw=true)
 
 ## Sample Data:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/SampleDataPNG.png?raw=true)
 ## PollUser Table:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/PollUserTable.png?raw=true)
 
 ## Poll Table:
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/PollTable.png?raw=true)
