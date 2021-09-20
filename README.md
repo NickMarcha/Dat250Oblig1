@@ -1,6 +1,7 @@
 # IoT Voting System
 The IoT Voting system is a system where people can vote for a certain poll whether or not with a physical device. A registered user can create a poll and every user is able to vote on a poll. A poll could be either public or private. The poll also has a certain time frame.
 
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/SystemArchitecture.png?raw=true)
 
 ## Use Cases
 These use cases give an understanding of what the functionalities are in our application.
@@ -10,13 +11,13 @@ Open/close poll: A registered user must be able to open or close their poll.
 Reset poll: A registered user must be able to reset their poll.
 Pair IoT Device: A registered user must be able to pair the poll to an IoT device.
 Vote: each user can vote on a poll.
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/UseCases.png?raw=true)
 
 ## Domain Model
 This domain model shows all the required concepts of our application including their relationships to each other. In this case we have a fairly simple domain model with only two tables RegisteredUser and Poll. These tables are also stored in a database.
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/DomainModel.png?raw=true)
 ##Application Flow Diagram
-
+![System Architecture](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/WebApplicationFlow.png?raw=true)
 This application consists of 4 screens. Non-logged-in users have the ability to vote on public polls and they can also register as a user. Logged-in users can create, edit and view their polls and also vote on public and private polls. The registered users also have the ability to reset their polls and to connect an IoT device.
 User Screens
 The user screens you’ll see below is a prototype of the application it will give a good understanding of how the application will work.
