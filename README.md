@@ -43,6 +43,7 @@ On the manage polls page a user can watch all the polls he has created and has t
 ![Manage Ppolls](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/ManagePolls.PNG?raw=true)
 
 When we click on the create poll button we are redirected to a new page where we can create a brand new poll, with a certain title, description, time and options.
+
 ![Create Poll](https://github.com/h578011/Dat250Oblig1/blob/master/Docs/CreatePoll.PNG?raw=true)
 
 
